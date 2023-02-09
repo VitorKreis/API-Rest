@@ -6,14 +6,14 @@ dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import homeRouter from './src/routes/home';
-import userRouter from './src/routes/user';
-import tokensRouter from './src/routes/tokens';
-import alunoRouter from './src/routes/aluno';
-import fotoRouter from './src/routes/foto';
+import homeRouter from './routes/home';
+import userRouter from './routes/user';
+import tokensRouter from './routes/tokens';
+import alunoRouter from './routes/aluno';
+import fotoRouter from './routes/foto';
 
 // eslint-disable-next-line no-unused-vars
-import connection from './src/database/Connection';
+import connection from './database/Connection';
 
 /*
 const WhiteList = [
